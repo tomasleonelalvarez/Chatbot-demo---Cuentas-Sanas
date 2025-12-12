@@ -50,7 +50,7 @@ export default function App() {
     {
       id: 'welcome',
       role: 'model',
-      text: '¡Hola! Soy tu **Asistente de Formación** para el taller *Cuentas Sanas sin esfuerzo*.\n\nEstoy acá para ayudarte a preparar la clase, repasar las dinámicas (como la de la familia Paganini) y resolver dudas sobre la Guía del Orientador.\n\n¿Por dónde te gustaría empezar hoy?',
+      text: '¡Hola! Soy tu **Asistente de formación** para el taller *Cuentas Sanas sin esfuerzo*.\n\nEstoy acá para ayudarte a preparar la clase, repasar las dinámicas (como la de la familia Paganini) y resolver dudas sobre la Guía del orientador.\n\n¿Por dónde te gustaría empezar hoy?',
       timestamp: new Date()
     }
   ]);
@@ -208,8 +208,8 @@ export default function App() {
                 <img src={LOGO_CUENTAS_SANAS} alt="Cuentas Sanas" className="h-full w-auto object-contain" />
             </div>
             <div className="hidden sm:block border-l border-gray-300 pl-4 h-10 flex flex-col justify-center">
-                <h1 className="text-lg font-bold text-[#023059] leading-none">Asistente de Formación</h1>
-                <p className="text-xs text-[#365B73] font-medium mt-1">Guía del Orientador</p>
+                <h1 className="text-lg font-bold text-[#023059] leading-none">Asistente de formación</h1>
+                <p className="text-xs text-[#365B73] font-medium mt-1">Guía del orientador</p>
             </div>
           </div>
         </header>
@@ -314,7 +314,7 @@ function SidebarContent() {
     return (
         <div className="flex flex-col h-full">
             <div className="p-6 border-b border-gray-100">
-                <h2 className="text-lg font-bold text-[#023059]">Recursos Rápidos</h2>
+                <h2 className="text-lg font-bold text-[#023059]">Recursos rápidos</h2>
                 <p className="text-xs text-[#365B73] mt-1">Material para el orientador</p>
             </div>
             <div className="flex-1 overflow-y-auto p-4 space-y-4">
@@ -337,7 +337,7 @@ function SidebarContent() {
                 ))}
                 
                 <div className="bg-[#023059]/5 rounded-xl p-4 border border-[#023059]/10 mt-6">
-                    <h3 className="text-[#023059] font-bold text-sm mb-2">💡 Tip de Facilitación</h3>
+                    <h3 className="text-[#023059] font-bold text-sm mb-2">💡 Tip de facilitación</h3>
                     <p className="text-xs text-[#365B73] leading-relaxed">
                         Recordá que los talleres son participativos. Usá las preguntas disparadoras de la guía para generar debate.
                     </p>
@@ -346,8 +346,8 @@ function SidebarContent() {
             <div className="p-6 border-t border-gray-100 bg-white flex flex-col items-center">
                  <img src={LOGO_FUNDACION} alt="Fundación Banco Macro" className="h-12 w-auto mb-2 object-contain" />
                 <div className="text-[10px] text-gray-400 text-center">
-                    Programa de Economía Personal<br/>
-                    y Familiar
+                    Programa de economía personal<br/>
+                    y familiar
                 </div>
             </div>
         </div>
